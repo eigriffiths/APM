@@ -1,11 +1,12 @@
 import { Component } from "@angular/core";
+
 //Decorator
 @Component({
   // HTML keyword
   selector: 'pm-root',
   template:` 
   <div><h1>{{PageTitle}}</h1>
-    <div>My First Component</div>
+    <pm-products></pm-products>
   </div>
   `
 })
